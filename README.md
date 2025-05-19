@@ -22,6 +22,7 @@ Welcome to the official website repository of **Arab Academy Motors**, a Formula
 - **Chakra UI** – Component library used for styling and building UI elements like modals, accordions, and forms
 - **JavaScript (ES6+)** – Core logic and form validation
 - **HTML5 & CSS3** – Page structure and additional styling
+  
 ---
 
 ## 🚀 Getting Started
