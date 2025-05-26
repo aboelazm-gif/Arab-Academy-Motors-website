@@ -7,7 +7,7 @@ export default function Navbar() {
     return <nav className="navbar">
         <a href="/" ><img className="team-logo" src={teamLogo} alt="" height="40px" /></a>
         <ul className="nav-list">
-            <li><NavLink to="../">ABOUT US</NavLink></li>
+            <li><NavLink to="../pages/AboutUs.jsx">ABOUT US</NavLink></li>
             <li><NavLink to="../pages/TeamPage.jsx">THE TEAM</NavLink></li>
             <li><NavLink to="../pages/JoinUs.jsx">JOIN US</NavLink></li>
         </ul>

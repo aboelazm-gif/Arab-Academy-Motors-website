@@ -7,6 +7,7 @@ import {NotFound} from "./pages/NotFound"
 import {JoinUs} from "./pages/JoinUs"
 import { TeamPage } from './pages/TeamPage';
 import { SubteamPage } from './pages/SubteamPage';
+import { AboutUs } from './pages/AboutUs';
 
 function NavBarWrapper(){
   return (<>
@@ -22,6 +23,7 @@ function App() {
       {path:"*",element:<NotFound/>},
       {path:"/pages/JoinUs.jsx", element:<JoinUs />},
       {path:"/pages/TeamPage.jsx",element:<TeamPage />},
+      {path:"/pages/AboutUs.jsx",element:<AboutUs />},
       {path:"/subteam/:subteamName", element:<SubteamPage />}
     ]},
   ])

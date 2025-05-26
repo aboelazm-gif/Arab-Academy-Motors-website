@@ -38,10 +38,18 @@ const Footer = () => {
               headertitle={"Socials"}
               content={<>
                 <ul className='socials-list'>
-                  <li><img src={linkedinIcon} alt="linkedin-icon"/>LinkedIn</li>
-                  <li><img src={instaIcon} alt="instagram-icon"/>Instagram</li>
-                  <li><img src={facebookIcon} alt="facebook-icon"/>Facebook</li>
-                  <li><img src={tiktokIcon} alt="tiktok-icon"/>TikTok</li>
+                  <a href="https://www.linkedin.com/company/arab-academy-motors/" target="_blank" rel="noopener noreferrer">
+                    <li><img src={linkedinIcon} alt="linkedin-icon"/>LinkedIn</li>
+                  </a>
+                  <a href="https://www.instagram.com/arabacademymotors_racingteam/" target="_blank" rel="noopener noreferrer">
+                    <li><img src={instaIcon} alt="instagram-icon"/>Instagram</li>
+                  </a>
+                  <a href="https://www.facebook.com/AAM.FSAE" target="_blank" rel="noopener noreferrer">
+                    <li><img src={facebookIcon} alt="facebook-icon"/>Facebook</li>
+                  </a>
+                  <a href="https://www.tiktok.com/@aam_fs" target="_blank" rel="noopener noreferrer">
+                    <li><img src={tiktokIcon} alt="tiktok-icon"/>TikTok</li>
+                  </a>
                 </ul>
               </>}
               />
@@ -53,7 +61,7 @@ const Footer = () => {
             border={0} 
             backgroundColor="transparent"
             >
-            <a href="mailto:AAMRACINGTEAM@Egypt.AAST.edu" target='_blank'><li><div className="contact-us f-list-item">Contact us</div><img className='arrow-r' src={arrowR} alt="" /></li></a>  
+            <a href="mailto:AAMRACINGTEAM@aast.edu" target='_blank'><li><div className="contact-us f-list-item">Contact us</div><img className='arrow-r' src={arrowR} alt="" /></li></a>  
             </Button>
             
         </ul>           
