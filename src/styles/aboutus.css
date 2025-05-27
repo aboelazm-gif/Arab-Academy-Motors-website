@@ -1,3 +1,11 @@
 .model-container{
     display: flex;
+    width: 100%;
+}
+.model-description{
+    width: 50%;
+    margin: 20px;
+}
+.model-description p{
+    font-size: 1.3rem;
 }

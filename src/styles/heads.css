@@ -57,8 +57,7 @@
     transition: color 0.3s ease-in-out;
 }
 .head-card:hover{
-    height: 275px;
-    width: 275px;
+    transform: scale(1.05);
     transition: 0.3s ease-in-out;
 }
 .head-card:hover h5{
@@ -66,7 +65,7 @@
     transition: display 0.3s ease-in-out;
 }
 .head-card:hover img{
-    height: 140px;
+    transform: scale(1.05);
     transition: 0.3s ease-in-out;
 }
 .head-card:hover .head-info{

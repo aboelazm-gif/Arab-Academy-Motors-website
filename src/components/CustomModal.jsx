@@ -182,7 +182,9 @@ const CustomModal = ({triggerContent,variant}) => {
          onClick={onOpen}
          border={variant=="login"?"2px solid rgb(0, 225, 200)":"0"}
          borderRadius={30}
+         backgroundColor="transparent"
          height={45}
+         width="full"
          p="5px 0px"
          m="0 10px 0 0"
          >
@@ -200,7 +202,7 @@ const CustomModal = ({triggerContent,variant}) => {
           <ModalOverlay
            bg="rgba(5,25,25,0.5)"
            backdropFilter="blur(10px)"
-           zIndex={2}
+           zIndex={6}
            />
           <ModalContent 
           borderRadius='20px' 

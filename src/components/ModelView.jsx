@@ -257,7 +257,7 @@ export const ModelView = ({modelPath}) => {
     <div
       ref={containerRef} // Wrap with containerRef div for sizing
       style={{
-        width: '40%',
+        width: '50%',
         position: 'relative',
         border:'1px solid rgb(0,100,100)',
         borderRadius:"0px 25px 25px 0",
