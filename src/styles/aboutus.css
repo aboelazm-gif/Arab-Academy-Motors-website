@@ -3,9 +3,26 @@
     width: 100%;
 }
 .model-description{
-    width: 50%;
+    width: 60%;
     margin: 20px;
 }
 .model-description p{
-    font-size: 1.3rem;
+    font-size: 1.2rem;
+}
+.model{
+    width: 40%;
+}
+@media only screen and (max-width: 900px){
+    .model-container{
+        display: inline-block;
+    }
+    .model-description{
+        width: 90%;
+    }
+    .model-description p{
+        font-size: 1.25rem;
+    }
+    .model{
+        width: 90%;
+    }
 }

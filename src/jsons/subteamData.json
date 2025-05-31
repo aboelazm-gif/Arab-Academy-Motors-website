@@ -1,0 +1,32 @@
+[
+    {
+        "name": "Vehicle Dynamics",
+        "img": "/src/assets/images/accordion/VD.png",
+        "desc": "This sub-team is responsible for designing the vehicle’s structural framework and dynamic behavior. The chassis must be lightweight yet strong enough to handle high loads and meet safety regulations. Meanwhile, the vehicle dynamics component focuses on suspension geometry, steering systems, ride height, weight distribution, and overall handling characteristics. Their goal is to ensure that the car is responsive, stable, and predictable under all driving conditions. They use simulations and real-world testing to tune performance and maintain optimal tire contact with the road."
+    },
+    {
+        "name": "Aerodynamics",
+        "img": "/src/assets/images/accordion/aerodynamics.png",
+        "desc": "The Aerodynamics team designs the aerodynamic package of the car, including the front and rear wings, undertray, sidepods, and diffusers. Their goal is to generate downforce to improve grip without significantly increasing drag. This involves extensive CFD (Computational Fluid Dynamics) simulations, wind tunnel testing, and optimization of airflow management across the car. For electric and autonomous vehicles, they may also consider thermal management and airflow to cooling systems. Their work directly influences speed, cornering ability, and overall efficiency."
+    },
+    { 
+        "name": "Powertrain",
+        "img": "/src/assets/images/accordion/powertrain.jpg",
+        "desc": "The Powertrain sub-team is in charge of everything that delivers power from the energy source to the wheels. For internal combustion cars, this includes the engine, fuel system, intake/exhaust, and transmission. For electric cars, they focus on electric motors, inverters, battery packs, and cooling systems. They are also responsible for drivetrain integration, efficiency tuning, and ensuring thermal and mechanical reliability. Their design choices significantly impact acceleration, top speed, and energy consumption." 
+    },
+    {
+        "name": "Electronics",
+        "img": "/src/assets/images/accordion/electronics.jpg",
+        "desc": "The Electronics team manages the car’s electrical architecture, including wiring harnesses, sensors, ECUs (Electronic Control Units), dashboards, and data acquisition systems. In autonomous cars, they also develop or integrate systems for perception (e.g., LiDAR, cameras), compute units, localization, and real-time control algorithms. They work closely with other teams to ensure that electrical components interface smoothly and reliably. This sub-team plays a vital role in diagnostics, telemetry, and driver feedback systems."
+    }, 
+    {
+        "name": "Autonomous",
+        "img": "/src/assets/images/accordion/autonomous.jpg",
+        "desc": "They are responsible for enabling the car to operate without human intervention in the Driverless (DV) class of Formula Student. They integrate a range of technologies across perception, localization, planning, and control. Perception involves processing data from sensors like LiDAR, cameras, and GPS to detect track boundaries and obstacles. Localization ensures the car knows its precise position on the track in real time, often using sensor fusion techniques. The planning and control components generate a safe and efficient path around the track and convert it into actionable commands (steering, throttle, braking). Collaboration with the Electronics team is key to successfully integrating autonomous systems into the car."
+    },
+    {
+        "name": "Business",
+        "img": "/src/assets/images/accordion/business.jpg",
+        "desc": "The Business sub-team ensures the team is financially viable and professionally presented. They are responsible for budgeting, cost tracking, and securing funding through sponsorships, partnerships, and grants. They also manage marketing, public relations, social media presence, and team branding. In competition, they prepare a Business Presentation event where they simulate pitching the car as a viable commercial product to investors. This involves developing a full business plan covering market analysis, manufacturing strategy, cost structure, and profitability. Their work showcases the team's real-world readiness and project management skills."
+    } 
+]

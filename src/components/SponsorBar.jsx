@@ -3,7 +3,6 @@ import '../styles/sponsorBar.css'
 export const SponsorBar = () => {
   return (
   <>
-    <h1 className="accordion-title">SPONSORS AND PARTNERS:</h1>
     <div className="sponsor-bar">
         <img src="https://aast.edu/template/en/colleges-all/img/logo-blue.webp" alt="" />
         <img src="https://www.3ds.com/assets/3ds-navigation/3DS_corporate-logo_solidworks.svg" alt="" />

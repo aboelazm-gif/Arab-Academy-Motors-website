@@ -1,4 +1,4 @@
-import React, { useEffect, useRef } from 'react';
+import React, { useEffect, useRef, useState } from 'react';
 import * as THREE from 'three';
 import { OrbitControls } from 'three/examples/jsm/controls/OrbitControls';
 import { GLTFLoader } from 'three/examples/jsm/loaders/GLTFLoader';
@@ -9,7 +9,8 @@ export const ModelView = ({modelPath}) => {
   const sceneRef = useRef(null); // Track if scene is already created
   const modelLoadedRef = useRef(false); // Track if model is already loaded
   const containerRef = useRef(null); // Added container ref
-
+  const [windowWidth, setWindowWidth] = useState(typeof window !== 'undefined' ? window.innerWidth : 1200);
+  
   useEffect(() => {
     const container = containerRef.current;
     if (!container) return;
@@ -253,11 +254,11 @@ export const ModelView = ({modelPath}) => {
     };
   }, []);
 
-  return (
+ return (
     <div
+      className='model'
       ref={containerRef} // Wrap with containerRef div for sizing
       style={{
-        width: '50%',
         position: 'relative',
         border:'1px solid rgb(0,100,100)',
         borderRadius:"0px 25px 25px 0",

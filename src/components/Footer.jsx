@@ -20,17 +20,17 @@ const Footer = () => {
               content={
               <>
                 <h4 className='Q'>What year of study should I be in to join?</h4>
-                  <p className='A'>While we tend to prefer younger students, year 1 to 3 range, we do not restrict older students from joining</p>
-                  <h4 className='Q'>Is it only for mechanical students?</h4>
-                  <p className='A'>Not at all, we welcome all students from all faculties, however engineering is preffered for mechanical sub-teams</p>
-                  <h4 className='Q'>Where have you competed before?</h4>
-                  <p className='A'>Italy and UK</p>
-                  <h4 className='Q'>Are there any prerequisites?</h4>
-                  <p className='A'>Nope. Just basic physics and a passion for innovating</p>
-                  <h4 className='Q'>How can I register?</h4>
-                  <p className='A'>From the Join Us tab on the top of the page</p>
-                  <h4 className='Q'>Where can I find you?</h4>
-                  <p className='A'>Lab G003,Building G, Abou Keer campus</p>
+                <p className='A'>While we tend to prefer younger students, year 1 to 3 range, we do not restrict older students from joining</p>
+                <h4 className='Q'>Is it only for mechanical students?</h4>
+                <p className='A'>Not at all, we welcome all students from all faculties, however engineering is preffered for mechanical sub-teams</p>
+                <h4 className='Q'>Where have you competed before?</h4>
+                <p className='A'>Italy and UK</p>
+                <h4 className='Q'>Are there any prerequisites?</h4>
+                <p className='A'>Nope. Just basic physics and a passion for innovating</p>
+                <h4 className='Q'>How can I register?</h4>
+                <p className='A'>From the Join Us tab on the top of the page</p>
+                <h4 className='Q'>Where can I find you?</h4>
+                <p className='A'>Lab G003,Building G, Abou Keer campus</p>
               </>}
               />
               <FooterModal

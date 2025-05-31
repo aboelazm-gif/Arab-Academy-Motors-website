@@ -1,14 +1,24 @@
-import ImageCarousel from "../components/Carousel";
+import Carousel from "../components/Carousel";
 import Accordion from "../components/Accordion";
 import slideData from '../jsons/mainCarousel.json'
+import subteamData from "../jsons/subteamData.json"
 import { SponsorBar } from "../components/SponsorBar";
+import { OldBoardCarousel } from "../components/OldBoardCarousel";
+import '../styles/home.css';
 
 const Home = () => {
   return (
     <div>
-        <h1 className='accordion-title'>OUR JOURNEY:</h1>
-        <ImageCarousel slides={slideData}/>
-        <Accordion />
+        <h1 className='component-title'>OUR JOURNEY:</h1>
+        <Carousel slides={slideData}/>
+
+        <h1 className="component-title">SUB-TEAMS:</h1>
+        <Accordion accordionContent={subteamData} showDescription={true} showRole={false}/>
+
+        <h1 className="component-title">PREVIOUS BOARD MEMBERS:</h1>
+        <OldBoardCarousel/>
+
+        <h1 className="component-title">SPONSORS AND PARTNERS:</h1>
         <SponsorBar/>
     </div>
   )

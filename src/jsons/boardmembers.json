@@ -1,48 +1,48 @@
 [
     {
-        "pfp":"/pfps/maboelazm.jpg",
+        "pfp":"/src/assets/images/pfps/maboelazm.jpg",
         "role":"Faculty Advisor",
         "name":"Prof. Mohamed Abo Elazm",
         "sub":""
     },
     {
-        "pfp":"/pfps/fayed.jpg",
+        "pfp":"/src/assets/images/pfps/fayed.jpg",
         "role":"Team Leader",
         "name":"Fayed Mohamed",
         "sub":""
     },
     {
-        "pfp":"/pfps/joe.png",
+        "pfp":"/src/assets/images/pfps/joe.png",
         "role":"Sub-Team Head",
         "sub":"Vehicle Dynamics",
         "name":"Youssof Walid"
     },
     {
-        "pfp":"/pfps/kareem.png",
+        "pfp":"/src/assets/images/pfps/kareem.png",
         "role":"Sub-Team Head",
         "sub":"Aerodynamics",
         "name":"Kareem Abo Elazm"
     },
     {
-        "pfp":"/pfps/azad.jpg",
+        "pfp":"/src/assets/images/pfps/azad.jpg",
         "role":"Sub-Team Head",
         "sub":"Powertrain",
         "name":"Azad Tamer"
     },
     {
-        "pfp":"/pfps/eman1.jpg",
+        "pfp":"/src/assets/images/pfps/eman1.jpg",
         "role":"Sub-Team Head",
         "sub":"Electronics",
         "name":"Eman Mohamed"
     }, 
     {
-        "pfp":"/pfps/andrew.jpg",
+        "pfp":"/src/assets/images/pfps/andrew.jpg",
         "role":"Sub-Team Head",
         "sub":"Autonomous",
         "name":"Andrew Ramez"
     },
     {
-        "pfp":"/pfps/sakr.png",
+        "pfp":"/src/assets/images/pfps/sakr.png",
         "role":"Sub-Team Head",
         "sub":"Business",
         "name":"AbdelRahman Sakr"

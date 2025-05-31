@@ -1,41 +1,41 @@
 [
     {
-        "image": "/carousel/2015-2016.jpg",
+        "image": "/src/assets/images/carousel/2015-2016.jpg",
         "caption": "2015-2016",
         "details": "The first of many years, and the team that started it all. Under the supervision of Prof. Mohamed Abo Elazm and the leadership of Eng. Mohamed El-Masri, they were able to set standards for innovation and teamwork. It may have been one of the roughest years for  the team but through their dedication and perseverance, the team is proud to say that ''We are here to stay!''."
     },
     {
-      "image": "/carousel/2016-2017.jpg",
+      "image": "/src/assets/images/carousel/2016-2017.jpg",
       "caption": "2016-2017",
       "details": "After gaining experience and learning so much through the first year, the team improved on their work and although a car was designed, we unfortunately had to settle on competing in the concept class due to budgetary reasons. We achieved 5th place worldwide that season"
     },
     {
-        "image": "/carousel/2017-2018.jpg",
+        "image": "/src/assets/images/carousel/2017-2018.jpg",
         "caption": "2017-2018",
         "details": "During this season we also competed in the concept class but with the full intention of beginning to manufacture the car to compete with in the 2018-2019 season. It was in this season where we got the highest placement we have ever achieved, which was 2nd place worldwide"
     },
     {
-      "image": "/carousel/2018-2019.jpg",
+      "image": "/src/assets/images/carousel/2018-2019.jpg",
       "caption": "2018-2019",
       "details": "This was the most integral season for the team as this was the first year we would not compete as a Concept Class car but instead compete in Class 1 CV (combustion vehicle). This team had done what many people, including fellow teammates, thought impossible, and while the car had unfortunately not passed the technical inspection, they had gotten closer than any prior season to actually competing with a fully realized race car."
     },
     {
-      "image": "/carousel/2021-2022.jpg",
+      "image": "/src/assets/images/carousel/2021-2022.jpg",
       "caption": "2021-2022",
       "details": "First season back after COVID. This was our first season competing as a driverless car and despite going into uncharted waters, we achieved 3rd place worldwide in the concept class competition."
     },
     {
-      "image": "/carousel/2022-2023.jpg",
+      "image": "/src/assets/images/carousel/2022-2023.jpg",
       "caption": "2022-2023",
       "details": "This was the most ambitious season yet, as while we did compete in the concept class, we competed in two competitions in one season, Italy and UK. There were many ups and downs during this season especially during the competitions themselves, however we were able to regain our 2nd place spot in Italy and our design got 6th place worldwide (including class 1 teams)."
     },
     {
-      "image": "/carousel/2023-2024.jpg",
+      "image": "/src/assets/images/carousel/2023-2024.jpg",
       "caption": "2023-2024",
       "details": "We faced a number of issues during this season, mainly due to most of the team graduating in the previous season, so aside from the heads, most of the team were new members. Even so we were still able to achieve 2nd place."
     },
     {
-        "image":"/carousel/2024-2025.jpg",
+        "image":"/src/assets/images/carousel/2024-2025.jpg",
         "caption":"2024-2025",
         "details":"Coming soon ;D."
     }

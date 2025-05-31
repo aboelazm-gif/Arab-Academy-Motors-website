@@ -7,7 +7,7 @@ export const TeamPage = () => {
   const teamLeader = boardMembers.find(m => m.role === 'Team Leader');
   return (
     <>
-    <h1 className="accordion-title">Team Board:</h1>
+    <h1 className="component-title">Team Board:</h1>
     <div className="team-hierarchy">
       <div className="highboard-members">
         <HighBoard boardMember={advisor}/>
