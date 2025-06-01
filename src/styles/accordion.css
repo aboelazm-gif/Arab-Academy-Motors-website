@@ -90,18 +90,16 @@
 .card.active > .background {
   filter: brightness(1);
 }
-/* Add these styles to your accordion.css file */
-
 /* Square card styling when showRole is true */
 .card.square-card {
-  aspect-ratio: 1; /* Ensures perfect square */
+  aspect-ratio: 1;
   display: flex;
   width: 200px;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   overflow: hidden;
-  border-radius: 200px; /* Optional: rounded corners */
+  border-radius: 200px;
   border: 0;
 }
 
