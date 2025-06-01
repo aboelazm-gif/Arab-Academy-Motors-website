@@ -1,15 +1,39 @@
-/* Create this as carousel.css in your styles folder */
-.year2-indicator {
-  text-align: center;
-  margin-bottom: 20px;
+/* carousel2.css - Fixed class names and horizontally centered */
+
+.carousel2-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
 }
 
-.current2-year {
+.carousel2-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 90%;
+}
+
+.carousel2-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 90%;
+}
+
+.year-indicator {
+  text-align: center;
+  margin-bottom: 20px;
+  width: 90%;
+}
+
+.current-year {
   font-size: 2rem;
   font-weight: 600;
   color: #333;
   margin-bottom: 15px;
   text-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  text-align: center;
 }
 
 .accordion2-wrapper {
@@ -27,6 +51,25 @@
   align-items: center;
   flex-wrap: wrap;
   gap: 20px;
+  min-height: 200px; /* Ensure consistent height */
+}
+
+/* Force single row only when there's definitely enough space */
+@media (min-width: 1200px) {
+  .accordion2-wrapper .accordion {
+    flex-wrap: nowrap;
+  }
+}
+@media (max-width: 900px) {
+  .carousel2-container {
+    width: 94%;
+  }
+}
+
+/* Ensure items don't shrink too much */
+.accordion2-wrapper .accordion > * {
+  flex-shrink: 0;
+  min-width: 180px; /* Match your cardSize */
 }
 
 @keyframes fadeIn {
@@ -40,29 +83,46 @@
   }
 }
 
-.year2-navigation {
+.year-navigation {
   display: flex;
   justify-content: center;
+  align-items: center;
   gap: 10px;
   flex-wrap: wrap;
+  margin-top: 30px;
+  width: 100%;
 }
-.year-button{
-  margin: 20px;
+
+.year-button {
+  padding: 8px 16px;
+  border: 2px solid #ddd;
+  background: white;
+  color: #333;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  font-weight: 500;
+}
+
+.year-button:hover {
+  background: #f0f0f0;
+  border-color: #bbb;
+}
+
+.year-button.active {
+  background: #007bff;
+  color: white;
+  border-color: #007bff;
 }
 
 /* Responsive Design */
 @media (max-width: 900px) {
-  
-  .carousel2-title {
-    font-size: 2rem;
+  .carousel2-container {
+    padding: 15px;
   }
   
-  .current2-year {
+  .current-year {
     font-size: 1.5rem;
-  }
-  
-  .year2-navigation {
-    margin-top: 20px;
   }
   
   .accordion2-wrapper .accordion {
@@ -71,9 +131,21 @@
   }
 }
 
-@media (max-width: 480px) {
+@media (max-width: 500px) {
+  .carousel2-container {
+    padding: 10px;
+  }
   
-  .current2-year {
+  .current-year {
     font-size: 1.3rem;
+  }
+  
+  .year-navigation {
+    gap: 8px;
+  }
+  
+  .year-button {
+    padding: 6px 12px;
+    font-size: 0.9rem;
   }
 }

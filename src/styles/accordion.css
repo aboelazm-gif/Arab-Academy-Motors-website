@@ -8,7 +8,7 @@
   color: white;
 }
 
-.accordion-description.open{ /* adjust based on content size */
+.accordion-description.open{
   opacity: 1;
   margin-top: 20px;
   padding: 20px;
@@ -96,13 +96,13 @@
 .card.square-card {
   aspect-ratio: 1; /* Ensures perfect square */
   display: flex;
-  width: 350px;
+  width: 200px;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  position: relative;
   overflow: hidden;
-  border-radius: 35px; /* Optional: rounded corners */
+  border-radius: 200px; /* Optional: rounded corners */
+  border: 0;
 }
 
 /* Ensure background image covers the square properly */
@@ -172,7 +172,7 @@
         font-size: 0.8rem;
     } 
     .card.square-card {
-        width: 200px;
+        max-width: 300px;
         height: 200px;
     }  
 }

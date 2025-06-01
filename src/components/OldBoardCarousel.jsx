@@ -18,7 +18,7 @@ export const OldBoardCarousel = () => {
           <div className="year-indicator">
             <h3 className="current-year">{currentYear}</h3>
           </div>     
-          <div className="accordion-wrapper">
+          <div className="accordion2-wrapper">
             <Accordion 
               accordionContent={currentBoardData} 
               showRole={true} 
