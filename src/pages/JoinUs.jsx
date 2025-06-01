@@ -61,7 +61,7 @@ const allOptions = [
             <label htmlFor="eMail">Email:</label> 
             <input type="email" name="eMail" id="eMail" required/>
             <label htmlFor="pNum">Phone number:</label>
-            <input type="text" name="pNum" id="pNum" required pattern='[0-9]{11}'/>
+            <input type="text" name="pNum" id="pNum" required pattern='+[0-9]{12}' placeholder='Add the country code as well, for example; +20...'/>
         </p>
         <div className="reg">
             <label htmlFor="reg-num">Registration number:</label>
@@ -85,24 +85,24 @@ const allOptions = [
                 <option value="Eng">Engineering</option>
                 <option value="CS">Computer Science</option>
                 <option value="AI">Artificial Intelligence</option>
-                <option value="Bus">Business and Management</option>
-                <option value="Log">Logistics</option>
-                <option value="Fish">Fisheries</option>
+                <option value="Business">Business and Management</option>
+                <option value="Logistics">Logistics</option>
+                <option value="Fisheries">Fisheries</option>
                 <option value="Pharma">Pharmacology</option>
-                <option value="Mar">Maritime</option>
-                <option value="Oth">Other...</option>
+                <option value="Maritime">Maritime</option>
+                <option value="Other">Other...</option>
             </select>
         </div>
         {faculty=="Eng"&&(
             <div className="major">
                 <label htmlFor="maj">Choose your Major:</label>
                 <select name="maj" id="maj">
-                    <option value="Mech">Mechanical Engineering</option>
-                    <option value="Comp">Computer Engineering</option>
-                    <option value="Comm">Communication Engineering</option>
-                    <option value="Elec">Electrical Engineering</option>
-                    <option value="Civ">Civil Engineering</option>
-                    <option value="Arch">Architecture Engineering</option>
+                    <option value="Mechanical">Mechanical Engineering</option>
+                    <option value="Computer">Computer Engineering</option>
+                    <option value="Communication">Communication Engineering</option>
+                    <option value="Electrical">Electrical Engineering</option>
+                    <option value="Civil">Civil Engineering</option>
+                    <option value="Architecture">Architecture Engineering</option>
                 </select>
             </div>            
         )}

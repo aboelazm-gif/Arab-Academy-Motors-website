@@ -1,0 +1,11 @@
+.subteam-image{
+    width: 90%;
+    max-width: 800px;
+    border-radius: 20px;
+    border: 4px solid rgb(0,100,100);
+    margin-left: 20px;
+}
+.sub-desc{
+    margin-right: 50px;
+    font-size: 1.25rem;
+}

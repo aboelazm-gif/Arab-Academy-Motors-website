@@ -1,0 +1,39 @@
+.subteam-container{
+    display: flex;
+}
+.subteam-member-card{
+    margin: 30px 40px;
+    background-color: rgb(0,45,55);
+    width: 350px;
+    border-radius: 100px;
+    padding: 8px 25px;
+}
+.subteam-details{
+    padding-left: 10px;
+    padding-top: 70px;
+    border-left: 1px solid rgb(0,100,100);
+}
+.subteam-lead{
+    margin: 20px 20px;
+}
+.subteam-member-card:has(.member-role){
+    border: 2px solid rgb(0,100,100);
+}
+.member-name{
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+.member-role{
+    margin-left: 20px;
+    font-size: 1.25rem;
+}
+@media only screen and (max-width: 900px){
+    .subteam-container{
+        display: inline-block;
+    }
+    .subteam-details{
+        border-left: none;
+        border-top: 1px solid rgb(0,100,100);
+        padding-top: 10px;
+    }    
+}
