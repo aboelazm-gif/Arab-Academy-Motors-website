@@ -4,7 +4,7 @@ import "../styles/form.css"
 export const JoinUs = () => {
 const [faculty, setFaculty] = useState('');
 // Replace 'SCRIPT URL' with your actual Google Apps Script URL
-const scriptURL = 'https://script.google.com/macros/s/AKfycbwzzZgKSufX4JlZ0-Ei5WowANYQx0xLBogOy6KhTTl6Tf1HhdJqYiuqRLVf4kVlvjb9/exec'; // <-- Replace this with your actual Google Apps Script web app URL
+const scriptURL = 'X'; // <-- Replace this with your actual Google Apps Script web app URL
 
 const allOptions = [
     { value: 'VD', label: 'Vehicle Dynamics' },
