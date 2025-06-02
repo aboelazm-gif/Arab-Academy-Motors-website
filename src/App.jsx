@@ -8,15 +8,30 @@ import {JoinUs} from "./pages/JoinUs"
 import { TeamPage } from './pages/TeamPage';
 import { SubteamPage } from './pages/SubteamPage';
 import { AboutUs } from './pages/AboutUs';
+import { useState, useEffect, createContext } from 'react';
+import getUser from "./firebase/auth"
+import getDoc from './firebase/getData'
 
 function NavBarWrapper(){
-  return (<>
+  return (
+  <>
     <Navbar/>
     <Outlet/>
-  </>)
+  </>
+  )
 }
-
+export const userContext=createContext(null);
 function App() {
+  const [user, setUser] = useState(null);
+
+  async function getCurrentUser() {
+    const currUser = await getUser()
+    setUser(currUser);
+  }
+  useEffect(()=>{
+    getCurrentUser()
+  }, []);
+
   const router = createBrowserRouter([
     {path:"/",element:<NavBarWrapper />,children:[
       {path:"/",element:<Home/>},
@@ -29,8 +44,10 @@ function App() {
   ])
   return (
       <>
-        <RouterProvider router={router}></RouterProvider>
-        <Footer/>
+        <userContext.Provider value={{user, setUser}}>
+          <RouterProvider router={router}></RouterProvider>
+          <Footer/>
+        </userContext.Provider>
       </>
   )
 }

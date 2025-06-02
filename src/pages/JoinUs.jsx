@@ -4,7 +4,7 @@ import "../styles/form.css"
 export const JoinUs = () => {
 const [faculty, setFaculty] = useState('');
 // Replace 'SCRIPT URL' with your actual Google Apps Script URL
-const scriptURL = 'X'; // <-- Replace this with your actual Google Apps Script web app URL
+const scriptURL = import.meta.env.VITE_REACT_GOOGLEFORM_LINK; // <-- Replace this with your actual Google Apps Script web app URL
 
 const allOptions = [
     { value: 'VD', label: 'Vehicle Dynamics' },

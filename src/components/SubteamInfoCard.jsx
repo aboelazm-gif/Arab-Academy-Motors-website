@@ -1,5 +1,6 @@
-import React from 'react'
-import subteamInfo from '../jsons/subteamData.json'
+import {React, useEffect} from 'react';
+import subteamInfo from '../jsons/subteamData.json';
+import getCollection from "../firebase/getCollection";
 import '../styles/subteamInfoCard.css'
 export const SubteamInfoCard = ({subname}) => {
     const subteam = subteamInfo.find(st=>st.name.match(subname));
