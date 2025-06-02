@@ -21,7 +21,10 @@ const CustomModal = ({triggerContent,variant}) => {
     const finalRef = React.useRef(null)
 
     const signupContent = <form action="">
-            <ModalBody p={10}>
+            <ModalBody p={10}
+            borderLeft="1px solid rgb(0, 100, 100)"
+            borderRight="1px solid rgb(0, 100, 100)"
+            >
               <FormControl >
                 <FormLabel>Email</FormLabel>
                 <Input
@@ -69,6 +72,7 @@ const CustomModal = ({triggerContent,variant}) => {
             <ModalFooter
              borderRadius="0 0 20px 20px"
              bg="rgba(40, 75, 95, 0.2)"
+             border="1px solid rgb(0, 100, 100)"
             >
               <Button
                 type='submit' 
@@ -105,7 +109,10 @@ const CustomModal = ({triggerContent,variant}) => {
             </form>
 
     const loginContent=<form action="">
-            <ModalBody p={10}>
+            <ModalBody p={10}
+            borderLeft="1px solid rgb(0, 100, 100)"
+            borderRight="1px solid rgb(0, 100, 100)"
+            >
               <FormControl >
                 <FormLabel>Email</FormLabel>
                 <Input
@@ -140,6 +147,7 @@ const CustomModal = ({triggerContent,variant}) => {
             <ModalFooter
              borderRadius="0 0 20px 20px"
              bg="rgba(40, 75, 95, 0.2)"
+             border="1px solid rgb(0, 100, 100)"
             >
               <Button
                 type='submit' 
@@ -205,26 +213,26 @@ const CustomModal = ({triggerContent,variant}) => {
            zIndex={6}
            />
           <ModalContent 
-          borderRadius='20px' 
-          bg="rgba(35,45,55,0.3)"
+          borderRadius='20px'
           maxW="400px"
-          h="250px"
+          h="315px"
           mx={4}
           position="relative"
-          top="300px"
+          top="275px"
           >
             <ModalHeader p="10px 0 10px 15px"
              bg="rgba(40, 75, 95, 0.2)"
              borderRadius="20px 20px 0 0"
              fontWeight="bold"
              fontSize={18}
-             >{variant=="login"?"Sign in to your account":(variant=="signup"?"Create an account":"")}
+             border="1px solid rgb(0, 100, 100)"
+             >{variant=="login"?"Sign in to your account":(variant=="signup"?"Create an account":"")} (Members only)
               <ModalCloseButton
                display="inline-block"
                textAlign="center"
                backgroundColor="rgba(0,225,200,1)"
                border="none"
-               m={variant=="login"?"0 0 0 165px":(variant=="signup"?"0 0 0 200px":"")}
+               m={variant=="login"?"0 0 0 40px":(variant=="signup"?"0 0 0 75px":"")}
                padding="6px 10px"
                borderRadius={10}
                color="rgb(0, 100, 100)"

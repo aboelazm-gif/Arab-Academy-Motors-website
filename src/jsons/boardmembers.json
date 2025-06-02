@@ -3,48 +3,56 @@
         "pfp":"/src/assets/images/pfps/maboelazm.jpg",
         "role":"Faculty Advisor",
         "name":"Prof. Mohamed Abo Elazm",
-        "sub":""
+        "sub":"",
+        "email":"maboelazm@gmail.com"
     },
     {
         "pfp":"/src/assets/images/pfps/fayed.jpg",
         "role":"Team Leader",
         "name":"Fayed Mohamed",
-        "sub":""
+        "sub":"",
+        "email":"fayed@gmail.com"
     },
     {
         "pfp":"/src/assets/images/pfps/joe.png",
         "role":"Sub-Team Head",
         "sub":"Vehicle Dynamics",
-        "name":"Youssof Walid"
+        "name":"Youssof Walid",
+        "email":"joeVD@gmail.com"
     },
     {
         "pfp":"/src/assets/images/pfps/kareem.png",
         "role":"Sub-Team Head",
         "sub":"Aerodynamics",
-        "name":"Kareem Abo Elazm"
+        "name":"Kareem Abo Elazm",
+        "email":"kareem@gmail.com"
     },
     {
         "pfp":"/src/assets/images/pfps/azad.jpg",
         "role":"Sub-Team Head",
         "sub":"Powertrain",
-        "name":"Azad Tamer"
+        "name":"Azad Tamer",
+        "email":"azad@gmail.com"
     },
     {
         "pfp":"/src/assets/images/pfps/eman1.jpg",
         "role":"Sub-Team Head",
         "sub":"Electronics",
-        "name":"Eman Mohamed"
+        "name":"Eman Mohamed",
+        "email":"eman@gmail.com"
     }, 
     {
         "pfp":"/src/assets/images/pfps/andrew.jpg",
         "role":"Sub-Team Head",
         "sub":"Autonomous",
-        "name":"Andrew Ramez"
+        "name":"Andrew Ramez",
+        "email":"andrew@gmail.com"
     },
     {
         "pfp":"/src/assets/images/pfps/sakr.png",
         "role":"Sub-Team Head",
         "sub":"Business",
-        "name":"AbdelRahman Sakr"
+        "name":"AbdelRahman Sakr",
+        "email":"sakr@gmail.com"
     }
 ]
