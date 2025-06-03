@@ -59,23 +59,18 @@ const CustomModal = ({triggerContent,variant}) => {
         alert("Password must be at least 8 characters long and contain at least one uppercase letter, one lowercase letter, one number, and one special character (@$!%_*?&)");
           return;
       }
-
-      const {result, error} = await Register(formData.email, formData.password);
-
       const newUser = {name: formData.name, email: formData.email};
 
-      const {result2, error2} = await setData("users", newUser, result.user.uid);
+      const {result, error} = await Register(formData.email, formData.password, newUser);
+
+
       if(error!=null){
         alert(error);
         return;
       }
-      if(error2!=null){
-        alert(error);
-        return;
-      }
+      
       
       setUser(result.user)
-      console.log(result)
       onClose();
     }
 

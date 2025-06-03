@@ -3,22 +3,25 @@ import {
   createUserWithEmailAndPassword,
   getAuth,
 } from "firebase/auth";
-import getDoc from "./getData.js";
+import setData from "./setData.js";
 
-export default async function register(email, password) {
+export default async function register(email, password, formData) {
   let result = null,
     error = null;
   try {
     result = await createUserWithEmailAndPassword(auth, email, password);
     if(result.user){
       try {
-        const userData = await getDoc("users", result.user.uid);
-        result.user.data = userData?.result?.data() || null;
+        const {result2, error2} = await setData("users", formData, result.user.uid);
+        if(error2 != null){
+          alert(error2); // Fixed: was alerting 'error' instead of 'error2'
+          return;
+        }
+        // Store the form data directly since setDoc was successful
+        result.user.data = formData;
       } 
       catch (e) {
-        console.error("Error fetching user data:", e);
-        // Don't throw here, just log the error
-        // The registration was successful even if we can't fetch additional data
+        console.error("Error setting user data:", e);
       }
     }
   } catch (e) {
