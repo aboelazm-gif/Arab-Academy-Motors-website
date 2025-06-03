@@ -4,14 +4,10 @@
         "sub1":"Vehicle Dynamics-Senior Member",
         "sub2":"",
         "email":"kilany@gmail.com"
-        "sub2":"",
-        "email":"kilany@gmail.com"
     },
     {
         "name":"Mohamed Dweek",
         "sub1":"Vehicle Dynamics-Senior Member",
-        "sub2":"",
-        "email":"dweek@gmail.com"
         "sub2":"",
         "email":"dweek@gmail.com"
     },
@@ -20,15 +16,11 @@
         "sub1":"Vehicle Dynamics",
         "sub2":"",
         "email":"menna@gmail.com"
-        "sub2":"",
-        "email":"menna@gmail.com"
     },
     
     {
         "name":"Youssef ElZohdy",
         "sub1":"Vehicle Dynamics",
-        "sub2":"",
-        "email":"zohdy@gmail.com"
         "sub2":"",
         "email":"zohdy@gmail.com"
     },
@@ -39,14 +31,10 @@
         "sub1":"Aerodynamics-Senior Member",
         "sub2":"",
         "email":"aziz@gmail.com"
-        "sub2":"",
-        "email":"aziz@gmail.com"
     },
     {
         "name":"Mostafa Tayel",
         "sub1":"Aerodynamics-Senior Member",
-        "sub2":"Electronics",
-        "email":"tayel@gmail.com"
         "sub2":"Electronics",
         "email":"tayel@gmail.com"
     },
@@ -73,14 +61,10 @@
         "sub1":"Powertrain-Senior Member",
         "sub2":"Business",
         "email":"onsy@gmail.com"
-        "sub2":"Business",
-        "email":"onsy@gmail.com"
     },
     {
         "name":"Ziad El-Aref",
         "sub1":"Powertrain-Senior Member",
-        "sub2":"",
-        "email":"ziad@gmail.com"
         "sub2":"",
         "email":"ziad@gmail.com"
     },
@@ -89,14 +73,10 @@
         "sub1":"Powertrain",
         "sub2":"",
         "email":"aley@gmail.com"
-        "sub2":"",
-        "email":"aley@gmail.com"
     },
     {
         "name":"Yassin Attia",
         "sub1":"Powertrain",
-        "sub2":"",
-        "email":"yassin@gmail.com"
         "sub2":"",
         "email":"yassin@gmail.com"
     },
@@ -105,14 +85,10 @@
         "sub1":"Electronics-Senior Member",
         "sub2":"",
         "email":"joe@gmail.com"
-        "sub2":"",
-        "email":"joe@gmail.com"
     },
     {
         "name":"Hazem Belal",
         "sub1":"Electronics-Senior Member",
-        "sub2":"",
-        "email":"hazem@gmail.com"
         "sub2":"",
         "email":"hazem@gmail.com"
     },
@@ -121,14 +97,10 @@
         "sub1":"Electronics-Senior Member",
         "sub2":"",
         "email":"radwan@gmail.com"
-        "sub2":"",
-        "email":"radwan@gmail.com"
     },
     {
         "name":"Mohamed AbdRabo",
         "sub1":"Electronics-Senior Member",
-        "sub2":"",
-        "email":"abdrabo@gmail.com"
         "sub2":"",
         "email":"abdrabo@gmail.com"
     },
@@ -137,14 +109,10 @@
         "sub1":"Electronics",
         "sub2":"Autonomous",
         "email":"rahma@gmail.com"
-        "sub2":"Autonomous",
-        "email":"rahma@gmail.com"
     },
     {
         "name":"Habiba Ghoneim",
         "sub1":"Business-Senior Member",
-        "sub2":"Autonomous",
-        "email":"habiba@gmail.com"
         "sub2":"Autonomous",
         "email":"habiba@gmail.com"
     },
@@ -153,22 +121,16 @@
         "sub1":"Business-Senior Member",
         "sub2":"Autonomous",
         "email":"maya@gmail.com"
-        "sub2":"Autonomous",
-        "email":"maya@gmail.com"
     },
     {
         "name":"Leena Gouda",
         "sub1":"Autonomous-Senior Member",
         "sub2":"",
         "email":"leena@gmail.com"
-        "sub2":"",
-        "email":"leena@gmail.com"
     },
     {
         "name":"AbdelKader Mohamed",
         "sub1":"Autonomous-Senior Member",
-        "sub2":"",
-        "email":"abdelkader@gmail.com"
         "sub2":"",
         "email":"abdelkader@gmail.com"
     }
