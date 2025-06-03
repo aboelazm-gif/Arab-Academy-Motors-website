@@ -46,11 +46,13 @@ export default function Navbar() {
             <li><NavLink to="../pages/TeamPage.jsx">THE TEAM</NavLink></li>
             <li><NavLink to="../pages/JoinUs.jsx">JOIN US</NavLink></li>
         </ul>
-        {user&&<p>{user?.data?.name}</p>} 
         <div className="account-buttons desktop-nav">
-            <CustomModal variant="signup" triggerContent={<><button className="signup-button">Sign Up</button></>}/>
-            <button className="signup-button">Log Out</button>
-            <CustomModal variant="login" triggerContent={<><img className="pfp" src={pfp} height="40px" alt="" /><p>Login</p></>}/>
+            {user?<button className="logout-button" onClick={()=>{signOut(); setUser(null)}}>Log Out</button>:
+            <>
+                <CustomModal variant="signup" triggerContent={<><button className="signup-button">Sign Up</button></>}/>
+                <CustomModal variant="login" triggerContent={<><img className="pfp" src={pfp} height="40px" alt="" /><p>Login</p></>}/>
+            </>
+            }
         </div>
         <button className="hamburger-btn" onClick={toggleMenu}>
             <span></span>
@@ -67,9 +69,12 @@ export default function Navbar() {
                 <li><NavLink to="../pages/JoinUs.jsx" onClick={closeMenu}>JOIN US</NavLink></li>
             </ul>
             <div className="account-buttons desktop-nav">
-                <CustomModal variant="signup" triggerContent={<><button className="signup-button" onClick={closeMenu}>Sign Up</button></>}/>
-                <button className="signup-button" onClick={()=>{signOut(); setUser(null)}}>Log Out</button>
-                <CustomModal variant="login" triggerContent={<><img className="pfp" src={pfp} height="40px" alt="" /><button className="login-button" onClick={closeMenu}><p>Login</p></button></>}/>
+                {user?<button className="logout-button" onClick={()=>{signOut(); setUser(null)}}>Log Out</button>:
+            <>
+                <CustomModal variant="signup" triggerContent={<><button className="signup-button">Sign Up</button></>}/>
+                <CustomModal variant="login" triggerContent={<><img className="pfp" src={pfp} height="40px" alt="" /><p>Login</p></>}/>
+            </>
+            }
             </div>
         </div>
     </nav>

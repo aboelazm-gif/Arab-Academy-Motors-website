@@ -52,7 +52,17 @@ a{
     color: rgb(0, 225, 200);
     font: bold 1.2em "Cairo";
 }
+.logout-button{
+    background-color: rgb(0, 225, 200);
+    border: none;
+    border-radius: 50px;
+    width: 100px;
+    font: 1.2rem 'Cairo';
+    color: rgb(0,100,100);
+    font-weight: bolder;
+    margin-right: 20px;
 
+}
 .signup-button{
 
     height: 45px;

@@ -5,3 +5,10 @@
     margin-top: 10px;
     margin-left: 20px;
 }
+.welcome-user{
+    font-size: larger;
+    margin-left: 20px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bolder;
+    font-style: italic;
+}

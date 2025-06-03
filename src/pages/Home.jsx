@@ -5,10 +5,14 @@ import subteamData from "../jsons/subteamData.json"
 import { SponsorBar } from "../components/SponsorBar";
 import { OldBoardCarousel } from "../components/OldBoardCarousel";
 import '../styles/home.css';
+import { useContext } from "react";
+import { userContext } from "../App";
 
 const Home = () => {
+  const {user} = useContext(userContext);
   return (
     <div>
+        {user&&<p className="welcome-user">Welcome, {user?.data?.name}</p>} 
         <h1 className='component-title'>OUR JOURNEY:</h1>
         <Carousel slides={slideData}/>
 
